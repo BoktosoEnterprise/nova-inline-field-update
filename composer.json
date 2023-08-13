@@ -1,5 +1,5 @@
 {
-    "name": "wehaa/liveupdate",
+    "name": "boktoso-enterprise/nova-inline-edit-field",
     "description": "A Laravel Nova field.",
     "keywords": [
         "laravel",
@@ -11,13 +11,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Wehaa\\Liveupdate\\": "src/"
+            "BoktosoEnterprise\\NovaInlineEdit\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Wehaa\\Liveupdate\\FieldServiceProvider"
+                "BoktosoEnterprise\\NovaInlineEdit\\FieldServiceProvider"
             ]
         }
     },

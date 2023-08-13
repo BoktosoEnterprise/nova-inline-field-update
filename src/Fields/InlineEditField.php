@@ -1,18 +1,19 @@
 <?php
 
-namespace Wehaa\Liveupdate;
+namespace BoktosoEnterprise\NovaInlineEdit\Fields;
 
-use Laravel\Nova\Fields\Field;
 use Config;
+use Laravel\Nova\Fields\Field;
+use function BoktosoEnterprise\NovaInlineEdit\data_get;
 
-class Liveupdate extends Field
+class InlineEditField extends Field
 {
     /**
      * The field's component.
      *
      * @var string
      */
-    public $component = 'liveupdate';
+    public $component = 'nova-inline-edit-field';
 
     protected function resolveAttribute($resource, $attribute)
     {

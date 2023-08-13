@@ -7,14 +7,14 @@ This tool allows you to update a field of a resource in the index view (inline e
 You can install the package in to a Laravel app that uses [Nova](https://nova.laravel.com) via composer:
 
 ```bash
-composer require wehaa/liveupdate
+composer require boktoso-enterprise/nova-inline-edit-field
 ```
 
 ## Usage
 
 ```php
-use Wehaa\Liveupdate\Liveupdate;
+use BoktosoEnterprise\NovaInlineEdit\Fields\InlineEditField;
 
-Liveupdate::make('Name')
+InlineEditField::make('Name')
 ```
 

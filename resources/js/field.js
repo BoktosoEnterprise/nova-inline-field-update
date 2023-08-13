@@ -1,5 +1,5 @@
 Nova.booting((Vue, router, store) => {
-    Vue.component('index-liveupdate', require('./components/IndexField'))
-    Vue.component('detail-liveupdate', require('./components/DetailField'))
-    Vue.component('form-liveupdate', require('./components/FormField'))
+  Vue.component('index-nova-inline-edit-field', require('./components/IndexField'))
+  Vue.component('detail-nova-inline-edit-field', require('./components/DetailField'))
+  Vue.component('form-nova-inline-edit-field', require('./components/FormField'))
 })

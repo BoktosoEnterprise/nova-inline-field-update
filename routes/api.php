@@ -13,4 +13,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::post('/update/{resource}', 'Wehaa\Liveupdate\Http\Controllers\LiveUpdateController@update');
+Route::post('/update/{resource}', 'BoktosoEnterprise\NovaInlineEdit\Http\Controllers\LiveUpdateController@update');

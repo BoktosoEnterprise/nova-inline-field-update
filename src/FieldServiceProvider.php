@@ -1,11 +1,11 @@
 <?php
 
-namespace Wehaa\Liveupdate;
+namespace BoktosoEnterprise\NovaInlineEdit;
 
-use Laravel\Nova\Nova;
-use Laravel\Nova\Events\ServingNova;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
+use Laravel\Nova\Events\ServingNova;
+use Laravel\Nova\Nova;
 
 class FieldServiceProvider extends ServiceProvider
 {
@@ -47,7 +47,7 @@ class FieldServiceProvider extends ServiceProvider
             return;
         }
         Route::middleware(['nova'])
-            ->prefix('live-update')
+            ->prefix('nova-inline-edit')
             ->group(__DIR__ . '/../routes/api.php');
     }
 }
